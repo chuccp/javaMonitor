@@ -2,9 +2,9 @@ package execute
 
 import (
 	"fmt"
-	"gitee.com/cooge/javaMonitor/config"
-	"gitee.com/cooge/javaMonitor/stream"
-	"gitee.com/cooge/javaMonitor/util"
+	"github.com/chuccp/javaMonitor/config"
+	"github.com/chuccp/javaMonitor/stream"
+	"github.com/chuccp/javaMonitor/util"
 	log "github.com/sirupsen/logrus"
 	"io"
 	"os"

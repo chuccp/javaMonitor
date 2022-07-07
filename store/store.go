@@ -1,7 +1,7 @@
 package store
 
 import (
-	"gitee.com/cooge/javaMonitor/execute"
+	"github.com/chuccp/javaMonitor/execute"
 	"sync"
 )
 

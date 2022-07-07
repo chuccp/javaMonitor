@@ -1,11 +1,11 @@
 package main
 
 import (
-	"gitee.com/cooge/javaMonitor/config"
-	"gitee.com/cooge/javaMonitor/execute"
-	"gitee.com/cooge/javaMonitor/rest"
-	"gitee.com/cooge/javaMonitor/schedule"
-	"gitee.com/cooge/javaMonitor/store"
+	"github.com/chuccp/javaMonitor/config"
+	"github.com/chuccp/javaMonitor/execute"
+	"github.com/chuccp/javaMonitor/rest"
+	"github.com/chuccp/javaMonitor/schedule"
+	"github.com/chuccp/javaMonitor/store"
 	log "github.com/sirupsen/logrus"
 	"os"
 	"runtime"

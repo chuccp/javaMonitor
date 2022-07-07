@@ -1,8 +1,8 @@
 package schedule
 
 import (
-	"gitee.com/cooge/javaMonitor/config"
-	"gitee.com/cooge/javaMonitor/store"
+	"github.com/chuccp/javaMonitor/config"
+	"github.com/chuccp/javaMonitor/store"
 	"github.com/robfig/cron/v3"
 	log "github.com/sirupsen/logrus"
 	"strings"
