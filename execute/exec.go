@@ -59,6 +59,7 @@ func (je *JavaExec) Run() {
 			if err == nil {
 				err := cmd.Start()
 				je.Process = cmd.Process
+				//je.Process.Kill()
 				if err == nil {
 					go je.run(output)
 				}else{

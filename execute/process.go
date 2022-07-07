@@ -13,6 +13,8 @@ type Win32_Process struct {
 }
 
 func FindJavaProcess(CommandLine string)([]*Win32_Process,error)  {
+
+
 	ws:=make([]*Win32_Process,0)
 	var dst []Win32_Process
 	q := wmi.CreateQuery(&dst, "where Name like '%java%' and CommandLine like '%"+CommandLine+"%'")
@@ -31,11 +33,3 @@ func KillJavaProcess(ProcessId uint32)error{
 	return cmd.Run()
 }
 
-type Win32_NetworkAdapter struct {
-	AdapterType string
-	Speed uint64
-	AdapterTypeID  uint16
-	GUID string
-	Status string
-	MaxSpeed uint64
-}
